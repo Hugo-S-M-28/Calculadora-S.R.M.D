@@ -1,0 +1,14 @@
+
+<div id="contenido" class="division-container container vh-100 d-flex flex-column justify-content-center align-items-center">
+    <h1 class="division-title mb-4">Bienvenido a División</h1>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="dividendo">Dividendo</span>
+        <input [(ngModel)]="uno" type="number" class="form-control" placeholder="Introduce el dividendo" aria-label="dividendo" aria-describedby="dividendo" required>
+    </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="divisor">Divisor</span>
+        <input [(ngModel)]="dos" type="number" class="form-control" placeholder="Inserte el divisor" aria-label="divisor" aria-describedby="divisor" required>
+    </div>
+    <button type="button" (click)="Resultado()" class="division-button btn btn-primary btn-lg mb-3">Mostrar resultado</button>
+    <button type="button" (click)="Regreso()" class="division-button btn btn-secondary btn-lg mb-3">Regresar</button>
+</div>

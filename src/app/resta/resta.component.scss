@@ -1,0 +1,56 @@
+
+.resta-container {
+    background-color: #9FA6B2;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    margin: 0 auto;
+
+    .resta-title {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .input-container {
+        margin-top: 20px;
+    }
+
+    .resta-label {
+        color: white;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .resta-input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    .resta-button {
+        width: calc(100% - 12px);
+        padding: 10px;
+        margin-top: 25px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .resta-button.mostrar {
+        background-color: green;
+        color: green;
+    }
+
+    .resta-button.regresar {
+        background-color: firebrick;
+        color: firebrick;
+    }
+
+    .resta-button.cerrar {
+        background-color: #ccc;
+        color: #343a40;
+    }
+}

@@ -1,0 +1,26 @@
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Calculadora</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <span class="navbar-text me-3">Bienvenido a tu calculadora, {{ usuario }}</span>
+      <button type="button" class="btn btn-outline-light" (click)="cerrarsesion()">Cerrar Sesión</button>
+    </div>
+  </div>
+</nav>
+
+
+  <div id="contenido" class="main-container container vh-100 d-flex flex-column justify-content-center align-items-center">
+    <h1 class="main-title mb-4">¡Bienvenido!</h1>
+    <div class="d-grid gap-3">
+      <button type="button" (click)="iraSuma()" class="main-button btn btn-primary btn-lg">Suma</button>
+      <button type="button" (click)="iraResta()" class="main-button btn btn-secondary btn-lg">Resta</button>
+      <button type="button" (click)="iraMultiplicacion()" class="main-button btn btn-success btn-lg">Multiplicación</button>
+      <button type="button" (click)="iraDivision()" class="main-button btn btn-warning btn-lg">División</button>
+    </div>
+  </div>
+  

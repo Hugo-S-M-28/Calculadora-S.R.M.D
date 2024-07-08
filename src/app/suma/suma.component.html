@@ -1,0 +1,14 @@
+
+<div id="contenido" class="suma-container container vh-100 d-flex flex-column justify-content-center align-items-center">
+    <h1 class="suma-title mb-4">Bienvenido a Suma</h1>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="valor1">Valor 1</span>
+        <input [(ngModel)]="uno" type="number" class="form-control" placeholder="Ingrese el valor 1" aria-label="valor1" aria-describedby="valor1">
+    </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="valor2">Valor 2</span>
+        <input [(ngModel)]="dos" type="number" class="form-control" placeholder="Ingrese el valor 2" aria-label="valor2" aria-describedby="valor2">
+    </div>
+    <button type="button" (click)="Resultado()" class="suma-button btn btn-primary btn-lg mb-3">Mostrar resultado</button>
+    <button type="button" (click)="Regreso()" class="suma-button btn btn-secondary btn-lg mb-3">Regresar</button>
+</div>

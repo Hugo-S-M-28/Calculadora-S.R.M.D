@@ -1,0 +1,56 @@
+
+.suma-container {
+    background-color: #0c49a5;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    margin: 0 auto;
+
+    .suma-title {
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .input-container {
+        margin-top: 20px;
+    }
+
+    .suma-label {
+        color: white;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .suma-input {
+        width: calc(100% - 22px);
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .suma-button {
+        width: calc(50% - 12px);
+        padding: 10px;
+        margin-top: 25px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .suma-button.mostrar {
+        background-color: green;
+        color: white;
+    }
+
+    .suma-button.regresar {
+        background-color: firebrick;
+        color: white;
+    }
+
+    .suma-button.cerrar {
+        background-color: #f8f9fa;
+        color: #343a40;
+    }
+}
